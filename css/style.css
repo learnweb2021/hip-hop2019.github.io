@@ -1,0 +1,256 @@
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Lato";
+  font-weight: 300;
+  color: #333;
+}
+
+.navbar {
+  font-weight: 800;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+a:hover {
+  color: #c4f809!important;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+  margin-top: 70px;
+}
+
+.about {
+  padding-top: 35px;
+}
+
+.about h4 {
+  font-weight: 700;
+}
+
+.about i {
+  color: #ff7878;
+  font-size: 30px;
+}
+
+.discs {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.collection {
+  background: #fff;
+  padding: 50px 0;
+  color: #fff;
+}
+
+.collection h2 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.collection .item {
+  border: 2px solid  #ff0077;
+  transition: .6s;
+}
+
+.collection .item .number {
+  padding: 20px 0;
+}
+
+.collection .item .number h4 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.collection .item .number p {
+  text-transform: uppercase;
+  color: #0e0d0d;
+}
+
+.collection .item:hover {
+  background: #f7f6f3;
+  border-radius: 30px;
+}
+
+.collection .item:hover h4 {
+  color: #000;
+  transition: .6s;
+}
+
+.collection .item:hover p {
+  color: #000;
+  transition: .6s;
+}
+
+.history {
+  padding-top: 35px;
+  margin-bottom: 0px;
+} 
+       
+.history h4 {
+  font-weight: 700;
+}
+
+.scale:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.fade {
+  opacity: 2;
+}
+
+.fade:hover {
+  opacity: 0.6;
+}
+
+.swing:hover {
+  animation:1.2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+
+
+#header-content {
+  background: url(../img/header-bg.jpg) no-repeat center top;
+  margin-top: -10px;
+  padding-top: 40px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+  background-size: 100%;
+  background-size: cover;
+}
+
+#header-content h1 {
+  margin-top: 100px;
+  color: white;
+  font-size: 70px;
+  font-weight: 300;  
+}
+
+#header-content h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#yellow {
+  padding: 5px 10px;
+  background: yellow;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#albums {
+  background: #000000!important;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#albums h4 {
+  color: #fff;
+  font-weight: 700;
+}
+
+#comments {
+  background: #000;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin-top: 30px;
+}
+
+#comments h4 {
+  color: white;
+  font-weight: 700;
+}
+
+#comments p {
+  color: white;
+}
+
+#logo {
+  background: #fff;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#logo h4 {
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+#why {
+  background: #8f8c8c;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+#why h4 {
+  color: white;
+  font-weight: 700;
+}
+
+#why p {
+  color: white;
+}
+
+#social {
+  background: #2d2d2d;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#social i {
+  color: #bdbdbd;
+  font-size: 30px;
+  padding: 20px;
+}
+
+#social i:hover {
+  color: yellow;
+}
+
+#footer {
+  background: #f2f2f2;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#footer p {
+  margin-bottom: 5px;
+}
+
+
+@keyframes trambling-animation {
+  0%, 50%, 100% {
+      transform: rotate(0deg);
+  }
+  10%, 30% {
+      transform: rotate(-8deg);
+  }
+  20%, 40% {
+      transform: rotate(8deg);
+  }
+}
